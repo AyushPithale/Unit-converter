@@ -1,0 +1,120 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url(background.jpg);
+    background-size: contain;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    max-width: 550px;
+    min-width: 340px;
+    height: 720px;
+    margin: 20px auto;
+    background-color: #F4F4F4;
+    box-shadow: 0px 0px 10px black;
+}
+
+
+.head-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 285px;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #6943FF;
+
+}
+ 
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #F4F4F4;
+  width: 800;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    width: 346px;
+    height: 20px ;
+    margin: 5px auto;
+    color: #5A537B;
+
+    
+}
+.group{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 108.57px;
+    margin: 0px auto;
+    border-radius: 5px;
+    justify-content: center;
+    /* border: 1px solid red; */
+    background-color: #ffffff;
+}
+
+
+input{
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    color: #F4F4F4;
+    background-color: #6943FF;
+    text-align: center;
+    font-size: 50px;
+    font-weight:  bold;
+    
+}
+
+#input-el{
+    margin-top: 25px;
+    height: 83px;
+    width: 117px;
+}
+
+button{
+    margin: 1px ;
+    height: 42px;
+    width: 117px;
+    background-color: #F4F4F4;
+    border-color: #F4F4F4;
+    color: #3D3D3D;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    width: 300px;
+}
+
+.inner-text{
+    display: flex;
+    width: 400px;
+    height: 25px;
+    margin: 10px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 4px;
+    width: 499px;
+    height: 25px ;
+    color: #5A537B;
+}
